@@ -6,10 +6,10 @@ name: Build, Push, and Update Deployment
 on:
   push:
     branches:
-      - main # main 브랜치에 푸시가 발생하면 실행
+      - master # main 브랜치에 푸시가 발생하면 실행
   pull_request:
     branches:
-      - main # main 브랜치로의 풀 리퀘스트가 발생하면 실행
+      - master # main 브랜치로의 풀 리퀘스트가 발생하면 실행
 
 # 빌드 작업 정의
 jobs:
